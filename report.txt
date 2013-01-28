@@ -1,7 +1,29 @@
 Kyle Jones
-
 Architecture HW #1
 
-Problem #6
-
-
+################################################
+Server: athena
+cpu MHz		: 2393.998
+Kernel version and OS: 3.2.0-35-generic GNU/Linux
+gcc version info: gcc (Ubuntu/Linaro 4.6.3-1ubuntu5) 4.6.3
+Compilation command: g++ -O3 -Wall -pedantic -o knapsack knapsack.cpp
+Users currently logged in: 2
+Average real time: 2.518
+Average user time: 1.726
+Average system time: 0.772
+Standard deviation real time: 0.103808
+Standard deviation user time: 0.0463033
+Standard deviation system time: 0.0735935
+################################################
+Server: eros.cs.txstate.edu
+cpu MHz		: 2659.998
+Kernel version and OS: 2.6.32-279.19.1.el6.x86_64 GNU/Linux
+gcc version info: gcc (GCC) 4.4.6 20120305 (Red Hat 4.4.6-4)
+Compilation command: g++ -O3 -Wall -pedantic -o knapsack knapsack.cpp
+Users currently logged in: 3
+Average real time: 2.118
+Average user time: 1.42
+Average system time: 0.674
+Standard deviation real time: 0.0299333
+Standard deviation user time: 0.0109545
+Standard deviation system time: 0.0300666

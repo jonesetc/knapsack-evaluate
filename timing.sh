@@ -6,7 +6,7 @@ echo "################################################" >> report.txt
 echo "Server: $HOSTNAME" >> report.txt
 
 #The CPU speed
-cat /proc/cpuinfo | grep "model name" | head -1 >> report.txt
+cat /proc/cpuinfo | grep "MHz" | head -1 >> report.txt
 
 #The OS and kernel version
 echo -n "Kernel version and OS: " >> report.txt
@@ -29,3 +29,4 @@ for i in {1..5}; do
 done
 
 ./stats times.txt
+rm times.txt
