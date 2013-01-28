@@ -1,7 +1,7 @@
 # knapsack-evaluate
 
-A BASH script to compile, run, evaluate, and generate a report about 
-the run times of an implementation of the knapsack problem in c++. 
+BASH scripts and a c++ program to compile, run, evaluate, and generate a report 
+about the run times of an implementation of the knapsack problem in c++. 
 This was done for my Computer Architecture class at Texas State University.
 
 # Notes
